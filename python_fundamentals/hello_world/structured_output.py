@@ -5,7 +5,7 @@ Version: 3
 Pi approx: 3.14
 Computation valid: True
 
-print(f"Language: {}".format(Language))
-print(f"Version: {}".format(Language))
-print(f"Pi approx: {:.2f}".format(Language))
-print(f"Computation valid: {}".format(Language))
+print("Language: {}".format(Language))
+print("Version: {}".format(Language))
+print("Pi approx: {:.2f}".format(Language))
+print("Computation valid: {}".format(Language))
