@@ -3,10 +3,10 @@
 
 language = "Python"
 version = 3
-pi = 3.14159
-valid = (version == 3)
+pi_value = 3.14159
+computation_valid = (10 > 5)
 
 print(f"Language: {language}")
 print(f"Version: {version}")
-print(f"Pi approx: {pi:.2f}")
-print(f"Computation valid: {valid}")
+print(f"Pi approx: {pi_value:.2f}")
+print(f"Computation valid: {computation_valid}")
