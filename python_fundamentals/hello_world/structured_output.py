@@ -3,7 +3,7 @@
 Language = 'Python'
 Version = 3
 Pi_approx = 3.14
-Computation_valid = True
+Computation_valid = 1 == 1
 
 print("Language: {}".format(Language))
 print("Version: {}".format(Version))
