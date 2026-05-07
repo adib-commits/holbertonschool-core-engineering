@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-Language: Python
-Version: 3
-Pi approx: 3.14
-Computation valid: True
+Language = 'Python'
+Version = 3
+Pi_approx = 3.14
+Computation_valid = True
 
 print("Language: {}".format(Language))
-print("Version: {}".format(Language))
-print("Pi approx: {:.2f}".format(Language))
-print("Computation valid: {}".format(Language))
+print("Version: {}".format(Version))
+print("Pi approx: {:.2f}".format(Pi_approx))
+print("Computation valid: {}".format(Computation_valid))
