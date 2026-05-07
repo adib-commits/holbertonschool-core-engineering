@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-pi = 3.14159
-is_valid = 3.14 == round(pi, 2)
+"""Structured output script."""
 
-print("Language: Python")
-print("Version: 3")
+language = "Python"
+version = 3
+pi = 3.14159
+valid = (version == 3)
+
+print(f"Language: {language}")
+print(f"Version: {version}")
 print(f"Pi approx: {pi:.2f}")
-print("Computation valid: {}".format(is_valid))
+print(f"Computation valid: {valid}")
