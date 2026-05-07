@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
+pi = 3.14159
+is_valid = 3.14 == round(pi, 2)
 
-language = "Python"
-version = 3
-pi_value = 3.14159
-computation_valid = (2 + 2 == 4)
-
-print("Language: {}".format(language))
-print("Version: {}".format(language))
-print("Pi approx: {:.2f}".format(language))
-print("Computation valid: {}".format(language))
+print("Language: Python")
+print("Version: 3")
+print(f"Pi approx: {pi:.2f}")
+print("Computation valid: {}".format(is_valid))
