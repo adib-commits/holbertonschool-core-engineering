@@ -6,6 +6,6 @@ pi_value = 3.14159
 computation_valid = (2 + 2 == 4)
 
 print("Language: {}".format(language))
-print(f"Version: {version}")
-print(f"Pi approx: {:.2f}")
-print(f"Computation valid: {computation_valid}")
+print(f"Version: {}".format(language))
+print(f"Pi approx: {}".format(language))
+print(f"Computation valid: {}".format(language))
