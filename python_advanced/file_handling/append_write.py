@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+"""Module for reading a file"""
 
-def append_write(filename="", text=""):
-    """Append a string at the end of a UTF8 text file"""
-    with open(filename, "a", encoding="utf-8") as f:
-        return f.write(text)
+def read_file(filename=""):
+    """Reads a UTF-8 text file and prints it to stdout"""
+    with open(filename, encoding="utf-8") as f:
+        print(f.read(), end="")
